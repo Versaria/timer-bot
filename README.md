@@ -18,8 +18,6 @@ Telegram-бот для управления таймерами с уведомл
 
 ### Установка и запуск
 ```bash
-# Клонирование репозитория
-```bash
 # 1. Клонирование репозитория
 git clone https://github.com/Versaria/timer-bot.git
 cd timer-bot
