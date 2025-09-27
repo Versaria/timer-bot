@@ -1,0 +1,97 @@
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# IDE
+.idea/
+*.iws
+*.iml
+*.ipr
+.vscode/
+*.swp
+*.swo
+*.classpath
+*.project
+.settings/
+bin/
+.nb-gradle/
+build/
+
+# OS
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Mac OS specific
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
+._*
+
+# Logs
+*.log
+logs/
+runtime.log
+bot.log
+
+# Config files with sensitive data (NEVER commit these!)
+src/main/resources/config/config.properties
+config/local.properties
+config/development.properties
+config/production.properties
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Application
+*.jar
+!target/*.jar
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Maven wrapper (except the jar)
+.mvn/wrapper/maven-wrapper.properties
+
+# Git
+*.orig
+*.rej
+
+# Mac M1 specific (M1 chip related)
+.DS_Store?
+._.DS_Store
+*.DS_Store
+**/.DS_Store
+**/._.DS_Store
+
+# Node.js (if added later)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python (if added later)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
